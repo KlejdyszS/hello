@@ -7,12 +7,9 @@ function onDeviceReady() {
 }
 
 function showDiv() {
-    var x = document.getElementById("infoDiv");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+   
+   info = "Sławomir Klejdysz"
+   navigator.notification.alert(info);
 }
 
 function deviceInfo() {
