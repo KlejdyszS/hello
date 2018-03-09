@@ -6,6 +6,15 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 
+function showDiv() {
+    var x = document.getElementById("infoDiv");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
 function deviceInfo() {
 
 	info =  'Hi, I am your smartphone :-)' + '\n' +
